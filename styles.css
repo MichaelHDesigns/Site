@@ -1,0 +1,32 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the background image container */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Set the default opacity for the background image */
+.background img {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Style for the peer-thru-link class */
+.peer-thru-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Add any additional styles you need */
